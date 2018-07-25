@@ -1,0 +1,15 @@
+# 说明
+> 工具包  
+> * 项目只需要创建工具类，不需要其它类
+> * 项目采用maven项目，不适用springboot项目，构建使用  
+```
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+</plugin>
+```
+> *不推荐使用springboot的构建工具，因为构建出来的目录在nexus中不能直接引用，需要修改。
+
+# 指令
+>mvn指令  
+> * 打包到nexus：mvn -e deploy
