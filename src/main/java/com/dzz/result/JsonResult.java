@@ -1,4 +1,4 @@
-package com.xxyy.result;
+package com.dzz.result;
 
 import java.io.Serializable;
 import java.util.UUID;
